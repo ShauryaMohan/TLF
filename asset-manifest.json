@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.127c5677.chunk.css",
+    "main.js": "/react-gh-pages/static/js/main.90add4bf.chunk.js",
+    "main.js.map": "/react-gh-pages/static/js/main.90add4bf.chunk.js.map",
+    "runtime-main.js": "/react-gh-pages/static/js/runtime-main.997c5c6c.js",
+    "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.997c5c6c.js.map",
+    "static/js/2.9d66ccf0.chunk.js": "/react-gh-pages/static/js/2.9d66ccf0.chunk.js",
+    "static/js/2.9d66ccf0.chunk.js.map": "/react-gh-pages/static/js/2.9d66ccf0.chunk.js.map",
+    "index.html": "/react-gh-pages/index.html",
+    "precache-manifest.5697dea03a7d24ad8c2045152969a99f.js": "/react-gh-pages/precache-manifest.5697dea03a7d24ad8c2045152969a99f.js",
+    "service-worker.js": "/react-gh-pages/service-worker.js",
+    "static/css/main.127c5677.chunk.css.map": "/react-gh-pages/static/css/main.127c5677.chunk.css.map",
+    "static/js/2.9d66ccf0.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.9d66ccf0.chunk.js.LICENSE.txt",
+    "static/media/Covid.jpg": "/react-gh-pages/static/media/Covid.75eae2f5.jpg",
+    "static/media/Racism.jpg": "/react-gh-pages/static/media/Racism.60cc2394.jpg",
+    "static/media/four.jpg": "/react-gh-pages/static/media/four.4b837e5e.jpg",
+    "static/media/logo.png": "/react-gh-pages/static/media/logo.80881460.png",
+    "static/media/one.jpg": "/react-gh-pages/static/media/one.5cf06ed5.jpg",
+    "static/media/three.jpg": "/react-gh-pages/static/media/three.a57a3fe3.jpg",
+    "static/media/top.css": "/react-gh-pages/static/media/topbackground.00dc9e29.jpg",
+    "static/media/two.jpg": "/react-gh-pages/static/media/two.984d3367.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.997c5c6c.js",
+    "static/js/2.9d66ccf0.chunk.js",
+    "static/css/main.127c5677.chunk.css",
+    "static/js/main.90add4bf.chunk.js"
+  ]
+}

@@ -1,0 +1,26 @@
+.slide {
+  height: 100%;
+  display: flex;
+  width: auto;
+  background-color: rgb(0, 0, 0, 0.3);
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+
+.slide p {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 80vh;
+  transition: 0.5s;
+}
+
+.slide:hover {
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.slide:hover p {
+  transform: translateY(-20vh) scale(1.5);
+}

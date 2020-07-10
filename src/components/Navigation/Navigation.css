@@ -1,0 +1,109 @@
+.Navigation {
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  box-shadow: 0px 1px 7px 0px black;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.nav-logo {
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  height: 100%;
+}
+
+.nav-link-container {
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  display: flex;
+  height: 100%;
+}
+
+.nav-icon {
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  height: 100%;
+  display: none;
+}
+
+.FontAwesomeIcon {
+  color: white;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.nav-links {
+  font-weight: bolder;
+  font-size: larger;
+  color: white;
+  float: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.nav-links:hover {
+  border: 3px;
+  border-bottom-style: solid;
+  border-color: rgb(255, 115, 0);
+  color: rgb(255, 115, 0);
+}
+
+.logo {
+  margin-top: 10px;
+  margin-left: 40px;
+  height: 80px;
+  width: 100px;
+  float: left;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Navigation {
+    height: 60px;
+  }
+  .logo {
+    height: 48px;
+    width: 60px;
+  }
+  .nav-link-container {
+    right: 0;
+    left: 0;
+    background-color: black;
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    height: 175px;
+    display: none;
+    z-index: 1;
+    overflow: hidden;
+  }
+  .nav-links {
+    text-align: center;
+    display: block;
+    float: none;
+    font-weight: medium;
+    font-size: 16px;
+    color: white;
+    padding: 18px;
+    margin: 0px;
+    cursor: pointer;
+  }
+  .nav-icon {
+    display: flex;
+  }
+  .FontAwesomeIcon:hover {
+    color: orangered;
+  }
+  .responsive {
+    display: block;
+  }
+}

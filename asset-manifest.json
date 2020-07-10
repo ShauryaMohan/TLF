@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TLF/static/css/main.199c22c0.chunk.css",
+    "main.css": "/TLF/static/css/main.729d26f5.chunk.css",
     "main.js": "/TLF/static/js/main.7f735bd8.chunk.js",
     "main.js.map": "/TLF/static/js/main.7f735bd8.chunk.js.map",
     "runtime-main.js": "/TLF/static/js/runtime-main.239a1842.js",
@@ -8,9 +8,9 @@
     "static/js/2.26b68979.chunk.js": "/TLF/static/js/2.26b68979.chunk.js",
     "static/js/2.26b68979.chunk.js.map": "/TLF/static/js/2.26b68979.chunk.js.map",
     "index.html": "/TLF/index.html",
-    "precache-manifest.54af8a61148b40898ce906730e670d5a.js": "/TLF/precache-manifest.54af8a61148b40898ce906730e670d5a.js",
+    "precache-manifest.b9d391e4be71d57fbf0622d432d1832a.js": "/TLF/precache-manifest.b9d391e4be71d57fbf0622d432d1832a.js",
     "service-worker.js": "/TLF/service-worker.js",
-    "static/css/main.199c22c0.chunk.css.map": "/TLF/static/css/main.199c22c0.chunk.css.map",
+    "static/css/main.729d26f5.chunk.css.map": "/TLF/static/css/main.729d26f5.chunk.css.map",
     "static/js/2.26b68979.chunk.js.LICENSE.txt": "/TLF/static/js/2.26b68979.chunk.js.LICENSE.txt",
     "static/media/Covid.jpg": "/TLF/static/media/Covid.75eae2f5.jpg",
     "static/media/Racism.jpg": "/TLF/static/media/Racism.60cc2394.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.239a1842.js",
     "static/js/2.26b68979.chunk.js",
-    "static/css/main.199c22c0.chunk.css",
+    "static/css/main.729d26f5.chunk.css",
     "static/js/main.7f735bd8.chunk.js"
   ]
 }

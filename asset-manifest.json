@@ -1,30 +1,27 @@
 {
   "files": {
-    "main.css": "/TLF/static/css/main.93b67372.chunk.css",
-    "main.js": "/TLF/static/js/main.47a09eee.chunk.js",
-    "main.js.map": "/TLF/static/js/main.47a09eee.chunk.js.map",
+    "main.css": "/TLF/static/css/main.88d6f909.chunk.css",
+    "main.js": "/TLF/static/js/main.7f735bd8.chunk.js",
+    "main.js.map": "/TLF/static/js/main.7f735bd8.chunk.js.map",
     "runtime-main.js": "/TLF/static/js/runtime-main.239a1842.js",
     "runtime-main.js.map": "/TLF/static/js/runtime-main.239a1842.js.map",
-    "static/js/2.7a03c5d6.chunk.js": "/TLF/static/js/2.7a03c5d6.chunk.js",
-    "static/js/2.7a03c5d6.chunk.js.map": "/TLF/static/js/2.7a03c5d6.chunk.js.map",
+    "static/js/2.26b68979.chunk.js": "/TLF/static/js/2.26b68979.chunk.js",
+    "static/js/2.26b68979.chunk.js.map": "/TLF/static/js/2.26b68979.chunk.js.map",
     "index.html": "/TLF/index.html",
-    "precache-manifest.f915deef9529815348eaebde79c57624.js": "/TLF/precache-manifest.f915deef9529815348eaebde79c57624.js",
+    "precache-manifest.3b9522cda944c3a784b232e8f9de0eb7.js": "/TLF/precache-manifest.3b9522cda944c3a784b232e8f9de0eb7.js",
     "service-worker.js": "/TLF/service-worker.js",
-    "static/css/main.93b67372.chunk.css.map": "/TLF/static/css/main.93b67372.chunk.css.map",
-    "static/js/2.7a03c5d6.chunk.js.LICENSE.txt": "/TLF/static/js/2.7a03c5d6.chunk.js.LICENSE.txt",
+    "static/css/main.88d6f909.chunk.css.map": "/TLF/static/css/main.88d6f909.chunk.css.map",
+    "static/js/2.26b68979.chunk.js.LICENSE.txt": "/TLF/static/js/2.26b68979.chunk.js.LICENSE.txt",
     "static/media/Covid.jpg": "/TLF/static/media/Covid.75eae2f5.jpg",
     "static/media/Racism.jpg": "/TLF/static/media/Racism.60cc2394.jpg",
-    "static/media/four.jpg": "/TLF/static/media/four.4b837e5e.jpg",
+    "static/media/carousel.css": "/TLF/static/media/two.984d3367.jpg",
     "static/media/logo.png": "/TLF/static/media/logo.80881460.png",
-    "static/media/one.jpg": "/TLF/static/media/one.5cf06ed5.jpg",
-    "static/media/three.jpg": "/TLF/static/media/three.a57a3fe3.jpg",
-    "static/media/top.css": "/TLF/static/media/topbackground.00dc9e29.jpg",
-    "static/media/two.jpg": "/TLF/static/media/two.984d3367.jpg"
+    "static/media/top.css": "/TLF/static/media/topbackground.00dc9e29.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.239a1842.js",
-    "static/js/2.7a03c5d6.chunk.js",
-    "static/css/main.93b67372.chunk.css",
-    "static/js/main.47a09eee.chunk.js"
+    "static/js/2.26b68979.chunk.js",
+    "static/css/main.88d6f909.chunk.css",
+    "static/js/main.7f735bd8.chunk.js"
   ]
 }

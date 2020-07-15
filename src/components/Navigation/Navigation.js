@@ -5,14 +5,18 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Navigation extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.reference = React.createRef();
   }
 
   openNav = () => {
-    const x = this.reference.current;
-    x.classList.toggle("responsive");
+    const x = document.getElementById("navlinkcontainer");
+    if (x.className.includes("responsive")) {
+      x.className = "nav-link-container";
+    } else {
+      x.className = "nav-link-container responsive";
+    }
   };
   render() {
     return (
@@ -20,18 +24,47 @@ class Navigation extends React.Component {
         <div className="nav-logo">
           <img className="logo" alt="logo" src={logo} />
         </div>
-        <div className="nav-link-container" ref={this.reference}>
-          <p className="nav-links">About Us</p>
-          <p className="nav-links">Articles</p>
-          <p className="nav-links">Home</p>
+        <div
+          className="nav-link-container"
+          ref={this.reference}
+          id="navlinkcontainer"
+        >
+          <p
+            className="nav-links"
+            onClick={() => {
+              this.props.changeRoute("home");
+              this.openNav();
+            }}
+          >
+            Home
+          </p>
+          <p
+            className="nav-links"
+            onClick={() => {
+              this.props.changeRoute("articles");
+              this.openNav();
+            }}
+          >
+            Articles
+          </p>
+          <p
+            className="nav-links"
+            onClick={() => {
+              this.props.changeRoute("aboutus");
+              this.openNav();
+            }}
+          >
+            About Us
+          </p>
         </div>
         <div className="nav-icon">
-          <FontAwesomeIcon
-            icon={faBars}
-            size="2x"
-            className="FontAwesomeIcon"
-            onClick={this.openNav}
-          />
+          <button onClick={this.openNav} className="toggle-button">
+            <FontAwesomeIcon
+              icon={faBars}
+              size="2x"
+              className="FontAwesomeIcon"
+            />
+          </button>
         </div>
       </div>
     );

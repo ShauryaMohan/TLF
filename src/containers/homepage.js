@@ -9,12 +9,15 @@ class HomePage extends React.Component {
     super(props);
     this.state = {};
   }
+  componentWillUnmount() {
+    window.scroll(0, 0);
+  }
 
   render() {
     return (
       <div>
         <HomePageTop />
-        <HomePageMiddle />
+        <HomePageMiddle viewArticle={this.props.viewArticle} />
         <HomePageText />
         <Carousel />
       </div>

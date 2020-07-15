@@ -1,0 +1,57 @@
+.TheArticleContainer {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.top-margin {
+  height: 140px;
+  width: 100%;
+}
+
+.TheArticleContent {
+  margin-left: 10%;
+  margin-top: 140px;
+  width: 60%;
+  min-height: 90vh;
+}
+
+.TheArticleTopic {
+  width: 100%;
+  min-height: 30vh;
+}
+
+.TheArticleHeading {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.TheArticleAuthor {
+  color: orangered;
+  font-size: 16px;
+}
+
+hr {
+  border-color: lightgray;
+  width: 100%;
+}
+
+.TheArticleText {
+  width: 100%;
+  min-height: 60vh;
+}
+
+.TheArticleText p {
+  font-size: 18px;
+}
+
+.TheArticleText h1 {
+  font-size: 28px;
+}
+
+@media only screen and (max-width: 600px) {
+  .TheArticleContent {
+    width: 80%;
+  }
+}

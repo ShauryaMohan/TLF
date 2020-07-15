@@ -1,0 +1,7 @@
+.ArticleContainer {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,6 +1,6 @@
 .middle-background {
   background-color: rgb(0, 0, 0, 1);
-  height: 150vh;
+  height: 140vh;
   width: 100%;
   display: flex;
   position: relative;
@@ -33,5 +33,18 @@
   padding: 20px;
   border: 3px;
   border-left-style: solid;
-  border-color: orangered;
+  border-color: #ff4500;
+}
+
+@media only screen and (max-width: 600px) {
+  .middle-heading p {
+    font-size: 28px;
+  }
+  .Cardcontainer {
+    height: 130vh;
+    top: 30vh;
+  }
+  .middle-background {
+    height: 170vh;
+  }
 }

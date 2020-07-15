@@ -1,26 +1,95 @@
-.slide {
-  height: 100%;
-  display: flex;
-  width: auto;
-  background-color: rgb(0, 0, 0, 0.3);
+.Carousel-container {
+  height: 100vh;
+  width: 100%;
   position: relative;
-  text-align: center;
-  justify-content: center;
 }
 
-.slide p {
-  text-align: center;
-  color: white;
-  font-size: 25px;
+.slide {
   position: absolute;
-  top: 80vh;
-  transition: 0.5s;
+  height: 100%;
+  width: 100%;
+  display: none;
+  top: 0px;
+  transition: 1s ease-in-out;
 }
 
-.slide:hover {
-  background-color: rgb(0, 0, 0, 0.5);
+.I {
+  background-image: url(one.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.slide:hover p {
-  transform: translateY(-20vh) scale(1.5);
+.II {
+  background-image: url(two.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.III {
+  background-image: url(three.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.IV {
+  background-image: url(four.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.panel-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 24.8% 24.8% 24.8% 24.8%;
+  grid-column-gap: 2px;
+  z-index: 1;
+}
+
+.panel {
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.panel-text {
+  color: white;
+  font-size: 20px;
+  transition: 1s;
+  margin-top: 80vh;
+}
+
+.activePanel {
+  background-color: rgb(0, 0, 0, 0.6);
+  transition: 1s;
+}
+.activePanel > .panel-text {
+  font-size: 35px;
+  transform: translateY(-20px);
+}
+
+.active {
+  display: block;
+}
+
+@media only screen and (max-width: 600px) {
+  .Carousel-container {
+    height: 70vh;
+  }
+  .panel-container {
+    grid-template-columns: 49.5% 49.5%;
+    grid-template-rows: 49.5% 49.5%;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+  }
+
+  .panel-text {
+    font-size: 14px;
+    margin-top: 16vh;
+  }
+  .activePanel > .panel-text {
+    font-size: 28px;
+  }
 }

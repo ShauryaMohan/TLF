@@ -1,7 +1,7 @@
 import React from "react";
 import "./cards.css";
 
-function Cards({ article }) {
+function Cards({ article, viewArticle }) {
   const style = {
     height: "100%",
     width: "100%",
@@ -12,7 +12,12 @@ function Cards({ article }) {
     transition: "0.5s",
   };
   return (
-    <div className="Card-Wrapper">
+    <div
+      className="Card-Wrapper"
+      onClick={() => {
+        viewArticle(article);
+      }}
+    >
       <div className="Card-image" style={style}>
         <div className="Card-text">
           <p className="Card-text-topic">{article.topic}</p>

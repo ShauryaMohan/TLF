@@ -23,11 +23,11 @@
 
 .topbackground-text {
   position: absolute;
-  top: 150px;
+  top: 70px;
   left: 50px;
   width: 50vw;
   height: 80%;
-  font-size: 60px;
+  font-size: 59px;
   color: White;
 }
 .background-merge {
@@ -42,7 +42,7 @@
   );
 }
 .topbackground-text .learnmore {
-  font-size: 16px;
+  font-size: 20px;
   text-decoration-style: solid;
   float: left;
   text-decoration: underline;
@@ -54,7 +54,7 @@
     height: 60px;
   }
   .top {
-    height: 80vh;
+    height: 50vh;
     width: 100%;
     left: 0;
     right: 0;
@@ -62,12 +62,16 @@
 
   .topbackground-text {
     position: absolute;
-    top: 60px;
-    left: 30px;
-    width: 100vw;
+    top: 0;
+    left: 0;
+    padding: 30px;
+    width: 80vw;
     height: 80%;
     font-size: 35px;
     color: White;
     float: left;
+  }
+  .big {
+    margin-bottom: 10px;
   }
 }
